@@ -1,0 +1,10 @@
+services:
+  jekyll:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: local/jekyll_site:latest
+    container_name: jekyll
+    ports:
+      - "8081:80"
+    restart: unless-stopped

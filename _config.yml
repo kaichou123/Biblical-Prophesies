@@ -1,0 +1,18 @@
+---
+title: Biblical Prophecy Database
+theme: minima
+collections:
+  prophecies:
+    output: true
+    permalink: /prophecies/:name
+  evidence:
+    output: true
+    permalink: /evidence/:name
+exclude:
+  - docker-compose.yml
+  - Dockerfile
+  - Dockerfile_working
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+...

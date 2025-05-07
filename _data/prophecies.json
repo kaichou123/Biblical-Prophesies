@@ -1,0 +1,29 @@
+[
+  {
+    "id": "00001",
+    "source_verse": "Micah 5:2",
+    "prophecy_quote": "Bethlehem Ephrathah... one will come from you to be ruler over Israel...",
+    "year_made": "700 BC",
+    "who_made_it": "Micah",
+    "type": "Direct",
+    "category": "Birth",
+    "fulfilled": "Yes",
+    "fulfillment_verse": "Matthew 2:1",
+    "fulfillment_quote": "After Jesus was born in Bethlehem of Judea...",
+    "year_fulfilled": "~4-6 BC",
+    "confidence_level": "High",
+    "evidence_ids": ["E0001"],
+    "evidence_context": "Confirms Bethlehem as the prophesied birthplace of the Messiah.",
+    "evidence_links": [
+      {"title": "Amarna Letters", "url": "https://www.britannica.com/topic/Amarna-Letters"}
+    ],
+    "arguments_links": [
+      {"title": "Christian View", "url": "https://www.apologeticspress.org/"},
+      {"title": "Jewish View", "url": "https://www.myjewishlearning.com/"}
+    ],
+    "media": [
+      {"type": "image", "path": "assets/images/amarna_tablet.jpg", "alt": "Amarna Tablet"}
+    ],
+    "notes": "Christian messianic prophecy; Jewish view may differ."
+  }
+]

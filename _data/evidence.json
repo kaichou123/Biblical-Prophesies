@@ -1,0 +1,20 @@
+[
+  {
+    "evidence_id": "E0001",
+    "type": "Archaeological",
+    "title": "Amarna Letters",
+    "description": "The Amarna Letters (14th century BC) mention Bethlehem as a Canaanite settlement.",
+    "media": [
+      {"type": "image", "path": "assets/images/amarna_tablet.jpg", "alt": "Amarna Tablet"}
+    ],
+    "links": [
+      {"title": "Britannica", "url": "https://www.britannica.com/topic/Amarna-Letters"}
+    ],
+    "self_hosted": [
+      {"title": "Bethlehem Dig Report", "path": "docs/evidence/bethlehem_dig.pdf"}
+    ],
+    "related_prophecies": [
+      {"id": "00001", "source_verse": "Micah 5:2"}
+    ]
+  }
+]

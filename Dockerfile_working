@@ -1,0 +1,12 @@
+# Stage 1: Build the Jekyll site
+FROM ruby:2.7-slim AS builder
+RUN apt-get update && apt-get install -y build-essential
+RUN gem install bundler -v 2.4.22
+COPY . /site
+WORKDIR /site
+RUN bundle install
+RUN bundle exec jekyll build
+
+# Stage 2: Serve with Nginx
+FROM nginx:1.25
+COPY --from=builder /site/_site /usr/share/nginx/html
