@@ -4,4 +4,9 @@ $(document).ready(function() {
         searching: true,
         ordering: true
     });
+    $('#evidence-table').DataTable({
+        paging: true,
+        searching: true,
+        ordering: true
+    });
 });

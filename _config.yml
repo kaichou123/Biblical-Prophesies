@@ -1,5 +1,6 @@
 ---
 title: Biblical Prophecy Database
+description: A database of biblical prophecies and supporting evidence
 theme: minima
 collections:
   prophecies:
