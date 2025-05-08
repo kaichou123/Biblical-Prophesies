@@ -1,17 +1,22 @@
 layout: default
 <h1>{{ page.title }}</h1>
-<p><strong>ID:</strong> {{ page.id }}</p>
-<p><strong>Type:</strong> {{ page.type }}</p>
-<p><strong>Category:</strong> {{ page.category }}</p>
-<p><strong>Description:</strong> {{ page.description }}</p>
+<dl>
+  <dt>ID</dt>
+  <dd>{{ page.evidence_id }}</dd>
+  <dt>Type</dt>
+  <dd>{{ page.type }}</dd>
+  <dt>Category</dt>
+  <dd>{{ page.category }}</dd>
+  <dt>Description</dt>
+  <dd>{{ page.description }}</dd>
+</dl>
 {{ content }}
 <h2>Related Prophecies</h2>
 <ul>
----
 {% for prophecy_id in page.related_prophecies %}
-  {% assign prophecy = site.prophecies | where: "id", prophecy_id | first %}
+  {% assign prophecy = site.prophecies | where: "prophecy_id", prophecy_id | first %}
   <li><a href="{{ prophecy.url }}">{{ prophecy.title }}</a></li>
 {% endfor %}
-...
 </ul>
+
 

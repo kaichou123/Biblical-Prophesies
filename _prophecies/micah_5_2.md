@@ -4,13 +4,15 @@ layout: default
 ---
 
 # Micah 5:2 - Ruler from Bethlehem
-
+**prophecy_id**: 00001 
 **Source Verse**: Micah 5:2
 **Summary**: A ruler will come from Bethlehem, prophesied to be the Messiah.
 **Type**: Direct
 **Category**: Birth
 **Fulfilled**: Yes
 **Confidence**: High
+**related_evidence**: [E0001]
+
 
 This prophecy is fulfilled in the birth of Jesus Christ in Bethlehem, as recorded in the New Testament.
 **Historical Evidence**:

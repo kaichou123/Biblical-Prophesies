@@ -1,21 +1,28 @@
 layout: default
 <h1>{{ page.title }}</h1>
-<p><strong>Source Verse:</strong> {{ page.source_verse }}</p>
-<p><strong>Summary:</strong> {{ page.summary }}</p>
-<p><strong>Type:</strong> {{ page.type }}</p>
-<p><strong>Category:</strong> {{ page.category }}</p>
-<p><strong>Fulfilled:</strong> {{ page.fulfilled }}</p>
-<p><strong>Confidence:</strong> {{ page.confidence_level }}</p>
+<dl>
+  <dt>ID</dt>
+  <dd>{{ page.prophecy_id }}</dd>
+  <dt>Source Verse</dt>
+  <dd>{{ page.source_verse }}</dd>
+  <dt>Summary</dt>
+  <dd>{{ page.summary }}</dd>
+  <dt>Type</dt>
+  <dd>{{ page.type }}</dd>
+  <dt>Category</dt>
+  <dd>{{ page.category }}</dd>
+  <dt>Fulfilled</dt>
+  <dd>{{ page.fulfilled }}</dd>
+  <dt>Confidence</dt>
+  <dd>{{ page.confidence_level }}</dd>
+</dl>
 {{ content }}
 <h2>Related Evidence</h2>
 <ul>
----
 {% for evidence_id in page.related_evidence %}
-  {% assign evidence = site.evidence | where: "id", evidence_id | first %}
+  {% assign evidence = site.evidence | where: "evidence_id", evidence_id | first %}
   <li><a href="{{ evidence.url }}">{{ evidence.title }}</a></li>
 {% endfor %}
-...
 </ul>
-
 
 

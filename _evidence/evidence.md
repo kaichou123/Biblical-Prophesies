@@ -19,7 +19,7 @@ layout: default
   <tbody>
     {% for evidence in site.evidence %}
     <tr>
-      <td>{{ evidence.id }}</td>
+      <td>{{ evidence.evidence_id }}</td>
       <td>{{ evidence.title }}</td>
       <td>{{ evidence.type }}</td>
       <td>{{ evidence.category }}</td>

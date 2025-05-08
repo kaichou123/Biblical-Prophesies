@@ -28,3 +28,14 @@ th, td {
 th {
     background-color: #f2f2f2;
 }
+dl {
+    display: grid;
+    grid-template-columns: max-content auto;
+    gap: 0.5em;
+}
+dt {
+    font-weight: bold;
+}
+dd {
+    margin: 0;
+}
