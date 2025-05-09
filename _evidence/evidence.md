@@ -29,5 +29,3 @@ layout: default
     {% endfor %}
   </tbody>
 </table>
-
-

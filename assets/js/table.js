@@ -1,12 +1,16 @@
 $(document).ready(function() {
-    $('#prophecy-table').DataTable({
-        paging: true,
-        searching: true,
-        ordering: true
-    });
-    $('#evidence-table').DataTable({
-        paging: true,
-        searching: true,
-        ordering: true
-    });
+    if ($('#prophecy-table').length) {
+        $('#prophecy-table').DataTable({
+            paging: true,
+            searching: true,
+            ordering: true
+        });
+    }
+    if ($('#evidence-table').length) {
+        $('#evidence-table').DataTable({
+            paging: true,
+            searching: true,
+            ordering: true
+        });
+    }
 });
