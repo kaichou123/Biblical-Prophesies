@@ -1,6 +1,6 @@
 ---
 title: Amarna Letters - Canaanite Correspondence
-layout: evidence
+layout: default
 ---
 
 evidence_id: E0001
