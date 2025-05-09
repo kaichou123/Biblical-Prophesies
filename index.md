@@ -23,7 +23,7 @@ layout: default
     <tr>
       <td>{{ prophecy.prophecy_id }}</td>
       <td><a href="{{ prophecy.url }}">{{ prophecy.source_verse }}</a></td>
-      <td>{{ prophecy.summary | truncate: 30 }}</td>
+      <td>{{ prophecy.summary | truncate: 50 }}</td>
       <td>{{ prophecy.type }}</td>
       <td>{{ prophecy.category }}</td>
       <td>{{ prophecy.fulfilled }}</td>
