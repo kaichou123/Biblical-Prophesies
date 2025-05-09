@@ -1,5 +1,6 @@
 ---
 title: Amarna Letters - Canaanite Correspondence
+image: assets/images/amarna_tablet.jpg
 layout: evidence
 evidence_id: E0001
 type: Archaeological
